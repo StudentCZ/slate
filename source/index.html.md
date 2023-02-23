@@ -34,13 +34,13 @@ Welcome
 ```ruby
 require 'kittn'
 
-api = Kittn::APIClient.authorize!('meowmeowmeow')
+api = Kittn::APIClient.authorize!('placeholder')
 ```
 
 ```python
 import kittn
 
-api = kittn.authorize('meowmeowmeow')
+api = kittn.authorize('placeholder')
 ```
 
 ```shell
