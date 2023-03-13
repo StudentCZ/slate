@@ -91,7 +91,7 @@ curl "http://example.com/api/kittens" \
 ```
 
 ```javascript
-const kittn = require("kittn");
+const heartbeat = require("heartbeat");
 
 let api = kittn.authorize("meowmeowmeow");
 let kittens = api.kittens.get();
@@ -122,7 +122,7 @@ This endpoint retrieves all heartbeats.
 
 ### HTTP Request
 
-`GET http://example.com/api/kittens`
+`GET http://example.com/api/heartbeats`
 
 ### Query Parameters
 
