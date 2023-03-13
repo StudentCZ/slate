@@ -25,7 +25,7 @@ meta:
 
 # Introduction
 
-Welcome
+Welcome to Smartbus
 
 # Authentication
 
@@ -57,7 +57,7 @@ let api = kittn.authorize("meowmeowmeow");
 
 > Make sure to replace `meowmeowmeow` with your API key.
 
-Kittn uses API keys to allow access to the API. You can register a new Kittn API key at our [developer portal](http://example.com/developers).
+Smartbus uses API keys to allow access to the API. We are using AWS Lambda to host our
 
 Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
 
@@ -67,7 +67,7 @@ Kittn expects for the API key to be included in all API requests to the server i
 You must replace <code>meowmeowmeow</code> with your personal API key.
 </aside>
 
-# Kittens
+# Heartbeats
 
 ## Get All Kittens
 
@@ -135,7 +135,7 @@ This endpoint retrieves all kittens.
 Remember — a happy kitten is an authenticated kitten!
 </aside>
 
-## Get a Specific Kitten
+## Get a Specific Heartbeat
 
 ```ruby
 require 'kittn'
