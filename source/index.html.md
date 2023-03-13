@@ -118,7 +118,7 @@ let kittens = api.kittens.get();
 ]
 ```
 
-This endpoint retrieves all kittens.
+This endpoint retrieves all heartbeats.
 
 ### HTTP Request
 
