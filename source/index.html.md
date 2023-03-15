@@ -29,7 +29,7 @@ Welcome to Smartbus
 
 # Authentication
 
-> To authorize, use this code:
+> Here is an example of how the code works
 
 ```ruby
 require 'kittn'
@@ -57,9 +57,9 @@ let api = kittn.authorize("meowmeowmeow");
 
 > Make sure to replace `meowmeowmeow` with your API key.
 
-Smartbus uses API keys to allow access to the API. We are using AWS Lambda to host our
+Smartbus uses API keys to allow access to the API. We are using AWS Lambda to host our heartbeat service endpoints.
 
-Kittn expects for the API key to be included in all API requests to the server in a header that looks like the following:
+The route and user information services is built using AWS EC2 and RDS with PostgreSQL.
 
 `Authorization: meowmeowmeow`
 
